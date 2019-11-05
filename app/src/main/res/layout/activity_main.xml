@@ -13,8 +13,9 @@
         android:id="@+id/title"
         android:text="올해 목표는 \n 무엇입니까?"
         android:textSize="50dp"
-        android:textColor="#ffef34"
-        android:layout_margin="15dp"/>
+        android:textColor="#7fc6a7"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"/>
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/Google_Login"
@@ -24,9 +25,9 @@
         android:layout_marginLeft="28dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="목표 적으러가기"
-        android:id="@+id/btn"/>
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="목표 적으러가기"-->
+<!--        android:id="@+id/btn"/>-->
 </LinearLayout>
